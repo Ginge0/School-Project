@@ -1,11 +1,15 @@
 @import url("reset.css") screen;
 @import url("animation.css") screen;
 
+@font-face {
+    font-family: 'AgendaLight'; /*a name to be used later*/
+    src: url('../fonts/Agenda Light.TTF'); /*URL to font*/
+}
 
 html, body {
 	background-image: url(../img/bg.svg);
 	font-size:12px;
-	font-family:"Open Sans", serif;
+	font-family: AgendaLight;
  	height: 0%;
     background-size:auto;
 }
